@@ -1,0 +1,97 @@
+body {
+    background-color: black;
+}
+
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url(/assets/hero-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  .marco-neon{
+    border: 5px solid white;
+    box-shadow: inset 0 0 5px red, 0 0 50px #e43ac7;
+    border-radius: 60px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .letra-neon {
+    font-family: "Dancing Script", cursive;
+    margin: 0;
+    font-size: 50px;
+    text-shadow: 0 0 5px red, 0 0 15px red, 0 0 30px red, 0 0 50px red;
+  }
+
+.borde-neon {
+    box-shadow: 0 0 5px #ea4015, 0 0 15px #ea4015, 0 0 30px #ea4015;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.foto-perfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: solid 5px #ffff;
+    box-shadow: 0 0 5px #11ee22, 0 0 15px #11ee22, 0 0 30px #11ee22;
+  }
+  
+  .neon3 {
+    font-family: monospace;
+    letter-spacing: 8px;
+    margin: 0;
+    font-size: 40px;
+    text-shadow: 0 0 25px #11ee22, 0 0 35px #11ee22, 0 0 40px #11ee22;
+  }
+  
+  .centrar{
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  h3, .año{
+    display: inline;
+  }
+
+  .letra-neon {
+    font-family: "Dancing Script", cursive;
+    margin: 0;
+    font-size: 50px;
+    text-shadow: 0 0 5px red, 0 0 15px red, 0 0 30px red, 0 0 50px red;
+  }
+  .neon2 {
+    font-family: monospace;
+    letter-spacing: 8px;
+    margin: 0;
+    font-size: 50px;
+    text-shadow: 0 0 5px yellow, 0 0 15px yellow, 0 0 30px yellow;
+  }
+  
+  #logoAp{
+      width: 100px;
+  }
+  
+  
+  img{
+      width: 40px;
+  }
+
+  footer{
+    background-color: #383838;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media (min-width: 800px) {
+    .neon2{
+        font-size: 120px;
+    }
+  }
+
